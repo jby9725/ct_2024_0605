@@ -5,15 +5,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-//System.out.println(new Solution().solution(2, 3)); // -1
-//        System.out.println(new Solution().solution(11, 11)); // 1
-//        System.out.println(new Solution().solution(7, 99)); // -1
 
 public class Tests {
+
     @Test
-    @DisplayName("2, 3 => -1")
+    @DisplayName("17, 19 => -1")
     void t1() {
-        assertThat(new Solution().solution(2, 3)).isEqualTo(-1);
+        assertThat(new Solution().solution(17, 19)).isEqualTo(-1);
     }
 
     @Test

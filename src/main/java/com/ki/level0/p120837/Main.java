@@ -35,6 +35,7 @@ class Solution {
 }
 
 // 반복문으로 처리하기 전 원본 코드
+// 알고리즘 이해를 돕기 위한 백업본
 // class Solution {
 //    public int solution(int hp) {
 //        int answer = 0;
